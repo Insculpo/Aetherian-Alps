@@ -1,0 +1,77 @@
+fileFormatVersion: 2
+guid: d9ac2835da60d5246a8b7fb23efd2f2d
+ScriptedImporter:
+  fileIDToRecycleName:
+    100000: EnergyReptile/EnergyReptile
+    400000: EnergyReptile/EnergyReptile/Transform
+    2100000: mat.NoOneWantsToKnow
+    2300000: EnergyReptile/EnergyReptile/MeshRenderer
+    2800000: NoOneWantsToKnow_baseColor
+    2800002: NoOneWantsToKnow_normal
+    2800004: NoOneWantsToKnow_height
+    3300000: EnergyReptile/EnergyReptile/MeshFilter
+    11400000: sbsar
+    11400002: graph0
+    13500000: EnergyReptile/EnergyReptile/SphereCollider
+    100100000: EnergyReptile
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 232528478, guid: 43a8bbf65be290d44ba52b94476242b9, type: 3}
+  version: 13
+  mGraphInstanceData:
+  - graphLabel: NoOneWantsToKnow
+    prototypeName: NoOneWantsToKnow
+    graphDescIndex: 0
+    generateAllOutputs: 0
+    generateMipMaps: 1
+    preset: " <sbspreset pkgurl=\"pkg://NoOneWantsToKnow\" label=\"\" >\n </sbspreset>\n"
+    shaderName: Standard
+    outputNames: baseColor,normal,height
+    texturePackingList:
+    - outputName: baseColor
+      alphaSource: baseColor
+    - outputName: normal
+      alphaSource: normal
+    - outputName: roughness
+      alphaSource: roughness
+    - outputName: height
+      alphaSource: height
+    textureParameters:
+    - textureName: NoOneWantsToKnow_baseColor
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: NoOneWantsToKnow_normal
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: NoOneWantsToKnow_roughness
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: NoOneWantsToKnow_height
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    colorSpaceList:
+    - outputName: baseColor
+      bLinear: 0
+    - outputName: normal
+      bLinear: 1
+    - outputName: roughness
+      bLinear: 1
+    - outputName: height
+      bLinear: 1
+    inputTextureMap: []
+    targetSettingList:
+    - label: 
+      bLockRatio: 1
+      bHighQuality: 0
+      textureWidth: 256
+      textureHeight: 256
+      textureFormat: 0
+      bGenerateOnLoad: 1
+    material: {instanceID: 0}
+    generatedTextures: []

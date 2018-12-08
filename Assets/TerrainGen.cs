@@ -44,7 +44,7 @@ public class TerrainGen : MonoBehaviour {
 					//Normalizes 
 					heightField [y, x] = CalculateHeight (y, x, 1.0f, 1) * scale;
 				} else {
-					heightField [y, x] = CalculateHeight (y, x, 10.0f, 7) * scale;
+					heightField [y, x] = CalculateHeight (y, x, 100.0f, 7) * scale;
 				}
 				//GameObject.Instantiate(trees,vigor,
 			}
@@ -55,23 +55,24 @@ public class TerrainGen : MonoBehaviour {
 	float CalculateHeight(int x, int y,float biome, int oct)
 	{
 
-		float uVal = 0.0f;
-		float max = 0.0f;
-		float amp = 1.0f;
-		float frequency = 1.0f;
-		for (int k = 0; k < oct; k++) {
-			float xCoord = offsetX + (float)x / width * frequency;
-			float yCoord = offsetY + (float)y / width * frequency;
-			uVal += Mathf.PerlinNoise (xCoord, yCoord) * biome;
+        float uVal = 0.0f;
+        float max = 0.0f;
+        float amp = 1.0f;
+        float frequency = 1.0f;
+        for (int k = 0; k < oct; k++)
+        {
+            float xCoord = offsetX + (float)x / width * frequency;
+            float yCoord = offsetY + (float)y / width * frequency;
+            uVal += Mathf.PerlinNoise(xCoord, yCoord) * biome;
 
-			max += amp;
-			amp *= persistance;
-			frequency *= 2;
-		}
+            max += amp;
+            biome *= persistance;
+            frequency *= 2;
+        }
+        Debug.Log(uVal / max);
+        return uVal / max;
 
-		return uVal / max;
-
-	}
+    }
 
 	void GenerateBiomeTexture(Texture2D bM, TerrainData aM)
 	{

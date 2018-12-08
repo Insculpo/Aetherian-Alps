@@ -63,13 +63,12 @@ public class TerrainGen : MonoBehaviour {
         {
             float xCoord = offsetX + (float)x / width * frequency;
             float yCoord = offsetY + (float)y / width * frequency;
-            uVal += Mathf.PerlinNoise(xCoord, yCoord) * biome;
+            uVal += Mathf.PerlinNoise(xCoord, yCoord) * biome * frequency;
 
             max += amp;
             biome *= persistance;
             frequency *= 2;
         }
-        Debug.Log(uVal / max);
         return uVal / max;
 
     }

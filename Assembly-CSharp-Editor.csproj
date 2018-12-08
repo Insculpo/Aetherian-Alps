@@ -68,16 +68,16 @@
     <Compile Include="Assets\Allegorithmic\Plugins\Substance\Livelink\Editor\Scripts\MeshLinkEditor.cs" />
     <Compile Include="Assets\Allegorithmic\Plugins\Substance\Livelink\Editor\Scripts\ShadersInfos.cs" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>C:/Users/tkaufeld/Desktop/AtherianAlpine/Aetherian-Alps/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/tkaufeld/Documents/GitHub/Aetherian-Alps/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/tkaufeld/Desktop/AtherianAlpine/Aetherian-Alps/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/tkaufeld/Documents/GitHub/Aetherian-Alps/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/Users/tkaufeld/Desktop/AtherianAlpine/Aetherian-Alps/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>C:/Users/tkaufeld/Documents/GitHub/Aetherian-Alps/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/tkaufeld/Desktop/AtherianAlpine/Aetherian-Alps/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/tkaufeld/Documents/GitHub/Aetherian-Alps/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -320,19 +320,19 @@
       <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="Substance.Game">
-      <HintPath>C:/Users/tkaufeld/Desktop/AtherianAlpine/Aetherian-Alps/Assets/Allegorithmic/Plugins/Substance.Game.dll</HintPath>
+      <HintPath>C:/Users/tkaufeld/Documents/GitHub/Aetherian-Alps/Assets/Allegorithmic/Plugins/Substance.Game.dll</HintPath>
     </Reference>
     <Reference Include="websocket-sharp">
-      <HintPath>C:/Users/tkaufeld/Desktop/AtherianAlpine/Aetherian-Alps/Assets/Allegorithmic/Plugins/Substance/Livelink/Editor/Plugins/websocket-sharp.dll</HintPath>
+      <HintPath>C:/Users/tkaufeld/Documents/GitHub/Aetherian-Alps/Assets/Allegorithmic/Plugins/Substance/Livelink/Editor/Plugins/websocket-sharp.dll</HintPath>
     </Reference>
     <Reference Include="Substance.Editor">
-      <HintPath>C:/Users/tkaufeld/Desktop/AtherianAlpine/Aetherian-Alps/Assets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/Substance.Editor.dll</HintPath>
+      <HintPath>C:/Users/tkaufeld/Documents/GitHub/Aetherian-Alps/Assets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/Substance.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Substance.Reflection">
-      <HintPath>C:/Users/tkaufeld/Desktop/AtherianAlpine/Aetherian-Alps/Assets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/Substance.Reflection.dll</HintPath>
+      <HintPath>C:/Users/tkaufeld/Documents/GitHub/Aetherian-Alps/Assets/Allegorithmic/Plugins/Substance/Substance Engine/Editor/Substance.Reflection.dll</HintPath>
     </Reference>
     <Reference Include="SourceUnityLib">
-      <HintPath>C:/Users/tkaufeld/Desktop/AtherianAlpine/Aetherian-Alps/Assets/Allegorithmic/Plugins/Substance/Substance Source/Editor/SourceUnityLib.dll</HintPath>
+      <HintPath>C:/Users/tkaufeld/Documents/GitHub/Aetherian-Alps/Assets/Allegorithmic/Plugins/Substance/Substance Source/Editor/SourceUnityLib.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Advertisements">
       <HintPath>C:/Users/tkaufeld/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>

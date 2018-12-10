@@ -1,0 +1,86 @@
+fileFormatVersion: 2
+guid: 6b2e6b9d365af91448b2e172e39c6411
+ScriptedImporter:
+  fileIDToRecycleName:
+    100000: AlpineCliff/AlpineCliff
+    400000: AlpineCliff/AlpineCliff/Transform
+    2100000: mat.AlpineCliff
+    2300000: AlpineCliff/AlpineCliff/MeshRenderer
+    2800000: AlpineCliff_baseColor
+    2800002: AlpineCliff_normal
+    2800004: AlpineCliff_metallic
+    2800006: AlpineCliff_height
+    3300000: AlpineCliff/AlpineCliff/MeshFilter
+    11400000: sbsar
+    11400002: graph0
+    13500000: AlpineCliff/AlpineCliff/SphereCollider
+    100100000: AlpineCliff
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 232528478, guid: 43a8bbf65be290d44ba52b94476242b9, type: 3}
+  version: 13
+  mGraphInstanceData:
+  - graphLabel: AlpineCliff
+    prototypeName: AlpineCliff
+    graphDescIndex: 0
+    generateAllOutputs: 0
+    generateMipMaps: 1
+    preset: " <sbspreset pkgurl=\"pkg://AlpineCliff\" label=\"\" >\n </sbspreset>\n"
+    shaderName: Standard
+    outputNames: baseColor,normal,metallic,height
+    texturePackingList:
+    - outputName: baseColor
+      alphaSource: baseColor
+    - outputName: normal
+      alphaSource: normal
+    - outputName: roughness
+      alphaSource: roughness
+    - outputName: metallic
+      alphaSource: smoothness
+    - outputName: height
+      alphaSource: height
+    textureParameters:
+    - textureName: AlpineCliff_roughness
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: AlpineCliff_baseColor
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: AlpineCliff_normal
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: AlpineCliff_metallic
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: AlpineCliff_height
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    colorSpaceList:
+    - outputName: baseColor
+      bLinear: 0
+    - outputName: normal
+      bLinear: 1
+    - outputName: roughness
+      bLinear: 1
+    - outputName: metallic
+      bLinear: 1
+    - outputName: height
+      bLinear: 1
+    inputTextureMap: []
+    targetSettingList:
+    - label: 
+      bLockRatio: 1
+      bHighQuality: 0
+      textureWidth: 256
+      textureHeight: 256
+      textureFormat: 0
+      bGenerateOnLoad: 1
+    material: {instanceID: 0}
+    generatedTextures: []
